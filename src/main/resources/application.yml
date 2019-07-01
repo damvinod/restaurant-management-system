@@ -1,0 +1,48 @@
+spring:
+  application:
+   name: resturant-website-service
+  
+  mvc:
+   view:
+     prefix: /WEB-INF/jsp/    
+     suffix: .jsp
+     
+  jpa:
+   show-sql: true  
+   hibernate:
+    ddl-auto: none   
+    
+  h2:
+   console:
+    enabled: true   
+    
+  datasource:
+   url: jdbc:h2:~/test;DB_CLOSE_ON_EXIT=TRUE
+   username: sa
+   password: sa
+   driverClassName: org.h2.Driver
+     
+server:
+ port: 8090     
+ 
+ 
+app:
+ exceptionDetailsMap:
+    MSP_1000_addItems: Error occured during the processing of Add Dishes information, please try again.
+    MSP_1001_admin: Error occured during redirect to admin page, please try again.
+    MSP_1002_downloadImage: Error occured during download image, please try again.
+    MSP_1003_chef: Error occured during redirect to chef page, please try again.
+    MSP_1004_saveOrderStatusToPending: Error occured during the processing of saveOrderStatusToPending, please try again.
+    MSP_1005_saveOrderStatusToClosed: Error occured during the processing of saveOrderStatusToClosed, please try again.
+    MSP_1006_customerOrder: Error occured during the processing of customerOrder, please try again.
+    MSP_1007_confirmOrder: Error occured during the processing of confirmOrder, please try again.
+    MSP_1008_home: Error occured during redirect to home page, please try again.
+    MSP_1009_getAllItems: Error occured during the processing of getAllItems information, please try again.
+    MSP_1011_addUser: Error occured during the processing of Add user information, please try again.
+    MSP_1012_deleteItem: Error occured during the processing of delete Dishes information, please try again.
+    MSP_1013_getReceivedItemsTransaction: Error occured during the processing of getReceivedItemsTransaction, please try again.
+    MSP_1014_getPendingItemsTransaction: Error occured during the processing of getPendingItemsTransaction information, please try again.
+    MSP_1015_getAllUsers: Error occured during the processing of getAllUsers information, please try again.
+
+ logger:
+   path: D:/Self_Log

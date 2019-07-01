@@ -1,0 +1,108 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url('../../images/res-3.jpg');
+	height: 100%;
+	/* Center and scale the image nicely */
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	overflow: auto;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+.footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: transparent;
+	text-align: center;
+	color: silver;
+}
+
+.container-welcome {
+	font: oblique, sans-serif;
+	text-align: center;
+	color: silver;
+}
+
+.content-story {
+	text-align: justify;
+	font-family: cursive;
+	text-decoration: blink;
+	color: white;
+	padding-left: 500Px;
+	padding-right: 500Px;
+	text-indent: 50px;
+}
+
+.bottom-img {
+	position: absolute;
+	bottom: 5%;
+	background: rgba(0, 0, 0, 0.5);
+	color: #ffffff;
+	width: 100%;
+	padding: 30px;
+	font-style: italic;
+	text-align: justify;
+}
+
+/* .panel-body {
+	background: silver;
+	background-image: 
+	
+} */
+
+.invisble {
+	display: none;
+}
+
+.menu-body {
+	max-width: 680px;
+	margin: 0 auto;
+	display: block;
+	color: rgb(92, 92, 92);
+}
+
+.menu-section {
+	margin-bottom: 80px;
+}
+
+.menu-section-title {
+	font-family: georgia;
+	font-size: 50px;
+	display: block;
+	font-weight: normal;
+	margin: 20px 0;
+	text-align: Center;
+}
+
+.menu-item {
+	margin: 35px 0;
+	font-size: 18px;
+}
+
+.menu-item-name {
+	font-family: helvetica;
+	font-weight: bold;
+	border-bottom: 2px dotted rgb(213, 213, 213);
+}
+
+.menu-item-description {
+	font-style: italic;
+	font-size: .9em;
+	line-height: 1.5em;
+}
+
+.menu-item-price {
+	float: right;
+	font-weight: bold;
+	font-family: arial;
+	margin-top: -22px;
+}
